@@ -185,10 +185,10 @@ a:hover {
 /* Main content */
 
 #content {
-	margin:0 25px 0 225px;
-	min-height:440px;
+	margin:0 25px 20px 225px;
 	border-left:5px dotted #e7e7e7;
 	padding-left:25px;
+	min-height:400px;
 }
 
 .inset {
