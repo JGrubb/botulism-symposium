@@ -24,10 +24,12 @@ p {
 	margin-bottom:15px;
 }
 
-h1 {
+h1,
+h2 {
 	color:#3366cc;
 	font-size:20px;
 	margin-bottom:20px;
+	padding-top:10px;
 }
 
 a {
@@ -205,6 +207,15 @@ a:hover {
 	font-style:italic;
 	text-indent:30px;
 	margin-bottom:30px;
+}
+
+#content li {
+	color:#444;
+	line-height:20px;
+	font-size:14px;
+	margin-left:20px;
+	margin-bottom:10px;
+	list-style-type:disc;
 }
 
 /* Footer */
