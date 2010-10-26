@@ -64,7 +64,8 @@ a:hover {
 	background:url('images/agenda.png') center top;
 }
 
-.nav li.agenda a:hover {
+.nav li.agenda a:hover,
+.nav li.agenda a:active {
 	background-position: center bottom;
 }
 
@@ -75,7 +76,8 @@ a:hover {
 	background:url('images/faculty.png') center top;
 }
 
-.nav li.faculty a:hover {
+.nav li.faculty a:hover,
+.nav li.faculty a:active {
 	background-position: center bottom;
 }
 
@@ -86,7 +88,8 @@ a:hover {
 	background:url('images/objectives.png') center top;
 }
 
-.nav li.objectives a:hover {
+.nav li.objectives a:hover,
+.nav li.objectives a:active {
 	background-position: center bottom;
 }
 
@@ -97,7 +100,8 @@ a:hover {
 	background:url('images/ce.png') center top;
 }
 
-.nav li.ce a:hover {
+.nav li.ce a:hover,
+.nav li.ce a:active {
 	background-position: center bottom;
 }
 
@@ -108,7 +112,8 @@ a:hover {
 	background:url('images/registration.png') center top;
 }
 
-.nav li.registration a:hover {
+.nav li.registration a:hover,
+.nav li.registration a:active {
 	background-position: center bottom;
 }
 
@@ -119,8 +124,8 @@ a:hover {
 #sidebar {
 	width:190px;
 	float:left;
-	border-right:5px dotted #e7e7e7;
 	padding:0 20px;
+	margin-top:-35px;
 }
 
 #side-blurb {
@@ -178,8 +183,28 @@ a:hover {
 /* Main content */
 
 #content {
-	margin:0 25px 0 260px;
+	margin:0 25px 0 225px;
 	min-height:440px;
+	border-left:5px dotted #e7e7e7;
+	padding-left:25px;
+}
+
+.inset {
+	float:right;
+	color: #444;
+	font-weight:bold;
+	font-size:12px;
+	width:200px;
+	border-left:3px solid #3366cc;
+	margin-left:20px;
+	padding:20px 0 20px 20px;
+	margin-bottom:10px;
+}
+
+.indent {
+	font-style:italic;
+	text-indent:30px;
+	margin-bottom:30px;
 }
 
 /* Footer */
