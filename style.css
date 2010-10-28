@@ -67,7 +67,7 @@ a:hover {
 }
 
 .nav li.agenda a:hover,
-.nav li.agenda a:active {
+.nav li.agenda a.active {
 	background-position: center bottom;
 }
 
@@ -79,7 +79,7 @@ a:hover {
 }
 
 .nav li.faculty a:hover,
-.nav li.faculty a:active {
+.nav li.faculty a.active {
 	background-position: center bottom;
 }
 
@@ -91,7 +91,7 @@ a:hover {
 }
 
 .nav li.objectives a:hover,
-.nav li.objectives a:active {
+.nav li.objectives a.active {
 	background-position: center bottom;
 }
 
@@ -103,7 +103,7 @@ a:hover {
 }
 
 .nav li.ce a:hover,
-.nav li.ce a:active {
+.nav li.ce a.active {
 	background-position: center bottom;
 }
 
@@ -115,7 +115,7 @@ a:hover {
 }
 
 .nav li.registration a:hover,
-.nav li.registration a:active {
+.nav li.registration a.active {
 	background-position: center bottom;
 }
 
@@ -162,7 +162,8 @@ a:hover {
 	background:url('images/side-nav.png') left top no-repeat;
 }
 
-.side-nav li.home a:hover {
+.side-nav li.home a:hover,
+.side-nav li.home a.active {
 	background:url('images/side-nav.png') left -33px no-repeat;
 }
 
@@ -210,12 +211,10 @@ a:hover {
 }
 
 #content li {
-	color:#444;
+	color:#777;
 	line-height:20px;
 	font-size:14px;
-	margin-left:20px;
 	margin-bottom:10px;
-	list-style-type:disc;
 }
 
 /* Footer */
@@ -223,4 +222,8 @@ a:hover {
 #footer {
 	height:98px;
 	background: url('images/footer.jpg');
+}
+
+#footer.home {
+	background: url('images/home-footer.jpg');
 }
